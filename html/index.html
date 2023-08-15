@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="centrar">
+        <article class="playlist">
+            <div class="img">
+                <img id="imagen" src="../images/310 - la banda del 5.jpg" alt="">
+            </div>
+            <div class="info">
+                <div class="name">
+                    <h2>Album Rock</h2>
+                    <h4>track 01 - Song Rock</h4>
+                </div>
+                <div class="start">
+                    <audio id="audio-player" src="../video/310 - La Banda Del 5 Feat. Diego Daza(MP3_128K).mp3"></audio>
+                    <div class="controls">
+                        <img id="prev" src="../images/flecha-correcta.png" alt="">
+                        <img id="pause" src="../images/btn-pause.svg" alt="">
+                        <img id="play" src="../images/btn-play.svg" alt="">
+                        <img class="volumen" src="../images/btn-volume.svg" alt="">
+                        <img id="next" src="../images/flecha-correcta.png" alt="">
+                        <div class="input-volumen">
+                            <input id="volume-slider" type="range" min="0" max="1" step="0.1" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
