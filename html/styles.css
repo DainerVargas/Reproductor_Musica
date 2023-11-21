@@ -1,3 +1,7 @@
+body{
+    background-color: gray;
+    
+}  
 article{
     background-color: rgb(45, 44, 44);
     width: 650px;
@@ -23,17 +27,16 @@ article{
 .controls #prev{
     rotate: 180deg;
 }
-body{
-    background-color: gray;
-
-}  
-.centrar,article{
+article{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 130px;
-    
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
 }
 .name{
     display: flex;
@@ -51,6 +54,3 @@ body{
     align-items: center;
     flex-direction: column;
 }
-/* #volume-slider{
-    display: none;
-} */
